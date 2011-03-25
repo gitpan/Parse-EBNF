@@ -3,7 +3,7 @@ package Parse::EBNF;
 use strict;
 use Parse::EBNF::Rule;
 
-our $VERSION = 1.03;
+our $VERSION = 1.04;
 
 sub new {
 	my ($class) = @_;
@@ -131,7 +131,7 @@ Parses a number of rule lines.
 
 =item C<rules()>
 
-Returns an arrayref of Parse::EBNF::Rule objects.
+Returns a hashref of Parse::EBNF::Rule objects.
 
 =item C<dump_rules()>
 
